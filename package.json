@@ -1,0 +1,29 @@
+{
+  "name": "template-literals-cli",
+  "version": "1.0.0",
+  "description": "Provides a quick way to compile .js files which export ES6 template literals to static html files.",
+  "main": "template-literals.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcary741/template-literals-cli.git"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "template-literals": "./template-literals.mjs"
+  },
+  "author": "Jay Cary <jay@cary.pro>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": ">=1.2.8",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.1"
+  },
+  "engines": {
+    "node": ">=24.5.0"
+  }
+}

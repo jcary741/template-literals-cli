@@ -1,0 +1,8 @@
+env: "prod"
+projects:
+  - title: "My Project"
+    figures:
+      sales_6mo: "/images/sales.png"
+      sales_3mo: "/images/sales2.png"
+
+
